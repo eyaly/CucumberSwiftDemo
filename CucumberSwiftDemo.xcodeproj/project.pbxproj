@@ -69,6 +69,9 @@
 			exceptions = (
 				71C082A92DE8EB2500CE6277 /* Exceptions for "CucumberSwiftDemoUITests" folder in "CucumberSwiftDemoUITests" target */,
 			);
+			explicitFolders = (
+				Features,
+			);
 			path = CucumberSwiftDemoUITests;
 			sourceTree = "<group>";
 		};

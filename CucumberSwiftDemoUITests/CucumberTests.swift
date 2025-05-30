@@ -8,14 +8,24 @@ extension Cucumber: StepImplementation {
     }
 
     public func setupSteps() {
-        Given("CucumberSwift is setup correctly") { _, _ in
-
+        let app = XCUIApplication()
+        BeforeScenario { _ in
+            print("🚀 Launching app")
+            app.launch()
         }
-        When("I execute these tests") { _, _ in
 
+        Given("I launch the app") { _, _ in
+            print("✅ I launch the app")
         }
-        Then("I can pull generated code with {string} from the report explorer and get things set up") { matches, _ in
-            let string = matches[1] // matches[0] is the entire statement, matches[1] is the string "matches"
+
+        When("I tap the hello button") { _, _ in
+            print("👉 Tapping the hello button")
+            app.buttons["helloButton"].tap()
+        }
+
+        Then("I see Hello World alert") { _, _ in
+            print("🪧 Verifying Hello World alert")
+            XCTAssertTrue(app.alerts["Hello World"].waitForExistence(timeout: 2))
         }
     }
 }
