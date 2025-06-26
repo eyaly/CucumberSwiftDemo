@@ -11,13 +11,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		71C082672DE89C8B00CE6277 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 71C082482DE89C8900CE6277 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 71C0824F2DE89C8900CE6277;
-			remoteInfo = CucumberSwiftDemo;
-		};
 		71C082712DE89C8B00CE6277 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 71C082482DE89C8900CE6277 /* Project object */;
@@ -30,7 +23,6 @@
 /* Begin PBXFileReference section */
 		710A44DE2E0E0E1700359458 /* CucumberSwiftDemo.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = CucumberSwiftDemo.xctestplan; sourceTree = "<group>"; };
 		71C082502DE89C8900CE6277 /* CucumberSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CucumberSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		71C082662DE89C8B00CE6277 /* CucumberSwiftDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CucumberSwiftDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71C082702DE89C8B00CE6277 /* CucumberSwiftDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CucumberSwiftDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -86,13 +78,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		71C082632DE89C8B00CE6277 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		71C0826D2DE89C8B00CE6277 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -120,7 +105,6 @@
 			isa = PBXGroup;
 			children = (
 				71C082502DE89C8900CE6277 /* CucumberSwiftDemo.app */,
-				71C082662DE89C8B00CE6277 /* CucumberSwiftDemoTests.xctest */,
 				71C082702DE89C8B00CE6277 /* CucumberSwiftDemoUITests.xctest */,
 			);
 			name = Products;
@@ -157,29 +141,6 @@
 			productName = CucumberSwiftDemo;
 			productReference = 71C082502DE89C8900CE6277 /* CucumberSwiftDemo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		71C082652DE89C8B00CE6277 /* CucumberSwiftDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 71C0827E2DE89C8B00CE6277 /* Build configuration list for PBXNativeTarget "CucumberSwiftDemoTests" */;
-			buildPhases = (
-				71C082622DE89C8B00CE6277 /* Sources */,
-				71C082632DE89C8B00CE6277 /* Frameworks */,
-				71C082642DE89C8B00CE6277 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				71C082682DE89C8B00CE6277 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				71C082692DE89C8B00CE6277 /* CucumberSwiftDemoTests */,
-			);
-			name = CucumberSwiftDemoTests;
-			packageProductDependencies = (
-			);
-			productName = CucumberSwiftDemoTests;
-			productReference = 71C082662DE89C8B00CE6277 /* CucumberSwiftDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		71C0826F2DE89C8B00CE6277 /* CucumberSwiftDemoUITests */ = {
 			isa = PBXNativeTarget;
@@ -218,10 +179,6 @@
 					71C0824F2DE89C8900CE6277 = {
 						CreatedOnToolsVersion = 16.2;
 					};
-					71C082652DE89C8B00CE6277 = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 71C0824F2DE89C8900CE6277;
-					};
 					71C0826F2DE89C8B00CE6277 = {
 						CreatedOnToolsVersion = 16.2;
 						LastSwiftMigration = 1620;
@@ -247,7 +204,6 @@
 			projectRoot = "";
 			targets = (
 				71C0824F2DE89C8900CE6277 /* CucumberSwiftDemo */,
-				71C082652DE89C8B00CE6277 /* CucumberSwiftDemoTests */,
 				71C0826F2DE89C8B00CE6277 /* CucumberSwiftDemoUITests */,
 			);
 		};
@@ -255,13 +211,6 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		71C0824E2DE89C8900CE6277 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		71C082642DE89C8B00CE6277 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -285,13 +234,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		71C082622DE89C8B00CE6277 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		71C0826C2DE89C8B00CE6277 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -302,11 +244,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		71C082682DE89C8B00CE6277 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 71C0824F2DE89C8900CE6277 /* CucumberSwiftDemo */;
-			targetProxy = 71C082672DE89C8B00CE6277 /* PBXContainerItemProxy */;
-		};
 		71C082722DE89C8B00CE6277 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 71C0824F2DE89C8900CE6277 /* CucumberSwiftDemo */;
@@ -490,44 +427,6 @@
 			};
 			name = Release;
 		};
-		71C0827F2DE89C8B00CE6277 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U9L423V2BW;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.ONMYovel.CucumberSwiftDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CucumberSwiftDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CucumberSwiftDemo";
-			};
-			name = Debug;
-		};
-		71C082802DE89C8B00CE6277 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U9L423V2BW;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.ONMYovel.CucumberSwiftDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CucumberSwiftDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CucumberSwiftDemo";
-			};
-			name = Release;
-		};
 		71C082822DE89C8B00CE6277 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -586,15 +485,6 @@
 			buildConfigurations = (
 				71C0827A2DE89C8B00CE6277 /* Debug */,
 				71C0827B2DE89C8B00CE6277 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		71C0827E2DE89C8B00CE6277 /* Build configuration list for PBXNativeTarget "CucumberSwiftDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				71C0827F2DE89C8B00CE6277 /* Debug */,
-				71C082802DE89C8B00CE6277 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
