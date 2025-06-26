@@ -28,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		710A44DE2E0E0E1700359458 /* CucumberSwiftDemo.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = CucumberSwiftDemo.xctestplan; sourceTree = "<group>"; };
 		71C082502DE89C8900CE6277 /* CucumberSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CucumberSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71C082662DE89C8B00CE6277 /* CucumberSwiftDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CucumberSwiftDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71C082702DE89C8B00CE6277 /* CucumberSwiftDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CucumberSwiftDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,6 +107,7 @@
 		71C082472DE89C8900CE6277 = {
 			isa = PBXGroup;
 			children = (
+				710A44DE2E0E0E1700359458 /* CucumberSwiftDemo.xctestplan */,
 				71C082522DE89C8900CE6277 /* CucumberSwiftDemo */,
 				71C082692DE89C8B00CE6277 /* CucumberSwiftDemoTests */,
 				71C082732DE89C8B00CE6277 /* CucumberSwiftDemoUITests */,

@@ -1,0 +1,44 @@
+{
+  "configurations" : [
+    {
+      "id" : "24701235-15BF-4BCD-AD0D-5EA5D89674C6",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:CucumberSwiftDemo.xcodeproj",
+      "identifier" : "71C0824F2DE89C8900CE6277",
+      "name" : "CucumberSwiftDemo"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "skippedTests" : {
+        "suites" : [
+          {
+            "name" : "CucumberSwiftDemoTests"
+          }
+        ]
+      },
+      "target" : {
+        "containerPath" : "container:CucumberSwiftDemo.xcodeproj",
+        "identifier" : "71C082652DE89C8B00CE6277",
+        "name" : "CucumberSwiftDemoTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:CucumberSwiftDemo.xcodeproj",
+        "identifier" : "71C0826F2DE89C8B00CE6277",
+        "name" : "CucumberSwiftDemoUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
