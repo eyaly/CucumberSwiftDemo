@@ -32,7 +32,6 @@
       }
     },
     {
-      "parallelizable" : true,
       "target" : {
         "containerPath" : "container:CucumberSwiftDemo.xcodeproj",
         "identifier" : "71C0826F2DE89C8B00CE6277",
